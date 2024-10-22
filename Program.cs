@@ -7,13 +7,21 @@
             try
             {
                 Console.WriteLine("Hello, World!");
+
                 Console.Write("Введите число а: ");
+
                 int a = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write("Введите число b: ");
+
                 int b = Convert.ToInt32(Console.ReadLine());
+
                 Summa summa = new Summa();
+
                 int j = summa.Summ(a, b);
+
                 Console.WriteLine("Сумма а + b = " + j);
+
                 ((ILogger)summa).Write();
             }
             catch
