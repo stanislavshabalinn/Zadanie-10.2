@@ -40,6 +40,7 @@
             void Write() { Console.WriteLine("Hello! I am Logger!"); }
         }
 
+
         public class Summa : ISumm, ILogger
         {
             public int Summ(int a, int b)
